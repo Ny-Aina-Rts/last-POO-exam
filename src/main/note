@@ -1,0 +1,30 @@
+    todo list from this exam
+
+On souhaite gérer le paiement des frais d'une université.
+  NB: rattacher un frais à un étudiant, et à plusieurs payement.
+il nous faut :
+ différent type de Paiement (
+   int id
+   float montantPayer
+   Instant Date&HeurePaiement),
+ un Frais (
+   int id
+   string label
+   float montantPayer
+   Instant deadline),
+ un Etudiant (
+   int id
+   String nom
+   String prenom
+   Instant dateEntreeHEI
+   List<groupe> historiqueGroupe),
+ mais surtout un Groupe (
+   int id
+   String nom)
+
+ Statistics {...}
+
+
+
+
+
